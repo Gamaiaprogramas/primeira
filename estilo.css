@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gabarito:wght@800&family=Ultra&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+font-family: 'Gabarito', sans-serif;
+font-family: 'Ultra', serif;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-vector/white-clouds-blue-sky-seamless-pattern-different-form-fluffy-clouds-light-heaven-background-vector-flat-cartoon-style-abstract-endless-texture-web-covers-decoration-kids-print-design_502274-343.jpg?w=2000);
+    background-size: 500px;
+}
+header{
+    height: 8vh;
+    background-color: #5e3101;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.burguer{
+    height: 50px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: -6px;
+}
+.burguer > div{
+    height: 10px;
+    background-color: wheat;
+    margin-top: 7px;
+}
+header > input{
+    width: 70vh;
+    height: 5vh;
+    border-radius: 12px;
+    text-align: center;
+   background-color: wheat;
+   font-size: 20px;
+   color: rgb(135, 33, 33);
+   cursor: pointer;
+}
+header > input::placeholder{
+    color:  rgba(126, 22, 22, 0.621);
+    font-size: 20px;
+}
+header > button{
+    border-radius: 12px;
+    font-size: 30px;
+    padding: 3px 14px;
+    cursor: pointer;
+    background-color: wheat;
+    color: rgb(127, 30, 30);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.primeiro{
+    display: flex;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius: 30px;
+    border: solid 10px black;
+    padding: 2px 40px;
+    box-shadow: 12px 12px 50px white;
+}
+.primeiro > h1{
+    font-size: 100px;
+}
+.primeiro > img{
+    height: 140px;
+}
