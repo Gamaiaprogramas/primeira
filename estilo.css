@@ -10,12 +10,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Anton', sans-serif;
-font-family: 'Gabarito', sans-serif;
-font-family: 'Ultra', serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Ultra', serif;
+    transition: 2s;
 }
 body{
     background-image: url(https://img.freepik.com/premium-vector/white-clouds-blue-sky-seamless-pattern-different-form-fluffy-clouds-light-heaven-background-vector-flat-cartoon-style-abstract-endless-texture-web-covers-decoration-kids-print-design_502274-343.jpg?w=2000);
     background-size: 500px;
+    overflow-x: hidden;
 }
 header{
     height: 8vh;
@@ -51,6 +53,9 @@ header > input::placeholder{
     color:  rgba(126, 22, 22, 0.621);
     font-size: 20px;
 }
+header > input:hover {
+    background-color: rgb(245, 227, 194);
+}
 header > button{
     border-radius: 12px;
     font-size: 30px;
@@ -79,13 +84,23 @@ main{
 }
 .primeiro > img{
     height: 140px;
+    animation: 3.5s entrada normal;
+    transition: 2s;
+}
+@keyframes entrada {
+    from{
+        transform: translateX(200%) rotate(180deg);
+    }
+    to{
+        transform: translateX(0) rotate(0);
+    }
 }
 .container{
     border: solid 10px black;
     width: 130vh;
     height: 90vh;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.406);
+    background-color: rgba(255, 0, 0, 0.406);
     box-shadow: 2px 2px 10px white;
     align-items: center;
 }
@@ -97,13 +112,14 @@ main{
 }
 .botoes > button{
     font-size: 35px;
-    background-color: rgb(146, 140, 140);
+    background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 20px;
     padding: 0 6px;
     margin-top: 8px;
     cursor: pointer;
-
+    box-shadow: 2px 2px 20px black;
+    transition: 1s;
 }
 .barra{
     background-color: black;
@@ -111,4 +127,53 @@ main{
     height: 1vh;
     margin: 10px 12px;
     border-radius: 10px;
+}
+.t1:hover{
+    transform: scale(1.07);
+    box-shadow: 10px 10px 20px blue;
+    animation: piscar normal 2s;
+}
+@keyframes piscar {
+    from{
+        box-shadow: 10px 10px 1px transparent;
+    }
+    to{
+        box-shadow: 10px 10px 20px inherit;
+    }
+}
+.t2:hover{
+    transform: scale(1.07);
+    box-shadow: 10px 10px 20px red;
+    animation: piscar normal 2s;
+}
+.t3:hover{
+    transform: scale(1.07);
+    box-shadow: 10px 10px 20px rgb(225, 157, 9);
+    animation: piscar normal 2s;
+}
+.t4:hover{
+    transform: scale(1.07);
+    box-shadow: 10px 10px 20px green;
+    animation: piscar normal 2s;
+}
+.t5:hover{
+    transform: scale(1.07);
+    box-shadow: 10px 10px 20px gray;
+    animation: piscar normal 2s;
+}
+.perfil > img{
+    height: 110px;
+    width: 110px;
+}
+.perfil> div{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://cdn.icon-icons.com/icons2/2528/PNG/512/profile_user_icon_151793.png);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 100%;
+    margin-top: 38px;
+    margin-left: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
