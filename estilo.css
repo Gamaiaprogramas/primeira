@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gabarito:wght@800&family=Ultra&display=swap');
 
 ::-webkit-scrollbar {
-    width: 0px; 
+    width: 20px; 
     
 }
   
@@ -162,6 +162,10 @@ main{
     box-shadow: 10px 10px 20px gray;
     animation: piscar normal 2s;
 }
+.texto{
+    display:flex;
+    margin-top: 30px;
+}
 .perfil > img{
     height: 110px;
     width: 110px;
@@ -178,4 +182,67 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.perfil > button{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+    margin-left: -30px;
+}
+.post{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: absolute;
+}
+.post1 > .n1{
+    height: 270px;
+    width: 370px;
+    margin-top: 140px;
+    position: absolute;
+    margin-left: -50px;
+}
+.n2{
+    height: 270px;
+    width: 470px;
+    margin-top: 140px;
+    position: absolute;
+    margin-left: 130px;
+    transform: rotate(-2deg);
+}
+.n3{
+    height: 270px;
+    width: 370px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 320px;
+    transform: rotate(-90deg);
+}
+.n4{
+    height: 270px;
+    width: 330px;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -120px;
+    transform: rotate(-90deg);
+}
+.n5{
+    height: 270px;
+    width: 370px;
+    margin-top: -52px;
+    position: absolute;
+    margin-left: -16px;
+    transform: rotate(-5deg);
+}
+.n6{
+    height: 127px;
+    width: 470px;
+    margin-top: -30px;
+    position: absolute;
+    margin-left: 130px;
+    transform: rotate(5deg);
+}
