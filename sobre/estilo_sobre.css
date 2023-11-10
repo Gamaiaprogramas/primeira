@@ -11,7 +11,7 @@ body{
    
     background-image: url(https://images4.fanpop.com/image/photos/19000000/blue-cloud-background-blue2-19029417-1920-986.jpg);
     transition: none;
-    
+    overflow-x: hidden;
     background-size: 270vh;
     animation: seila infinite 57s;
 }
@@ -93,7 +93,7 @@ header > button{
     background-color: #5e3101;
 }
 .container{
-    background-color: aqua;
+ 
     width: 100%;
     height: auto;
     display: flex;
@@ -116,7 +116,8 @@ header > button{
     margin-left: 3vh;
 }
 .gui_org{
-
+    display: flex;
+    flex-direction: column;
     width: 64vh;
     margin-left: 3vh;
 }
@@ -137,7 +138,7 @@ header > button{
     text-decoration: underline;
     font-size: 2.6vh;
     font-weight: 1000;
-    margin-left: 20vh;
+    
 }
 .Gabriel{
     width: 100vh;
@@ -148,4 +149,30 @@ header > button{
     border-radius: 20px;
     border: solid 7px #5e3101 ;
     margin-top: 5vh;
+
+}
+.org_gab{
+    width: 64vh;
+    margin-left: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.org_gab > h1{ 
+    font-size: 5vh;
+    color: #5e3101;
+}
+.org_gab > p{
+    font-size: 3.7vh;
+    color: #5e3101;
+}
+.org_gab > input{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #5e3101;
+    text-decoration: underline;
+    font-size: 2.6vh;
+    font-weight: 1000;
+
 }
