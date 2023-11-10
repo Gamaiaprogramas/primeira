@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Ultra', serif;
+    transition: 2s;
+}
+body{
+   
+    background-image: url(https://images4.fanpop.com/image/photos/19000000/blue-cloud-background-blue2-19029417-1920-986.jpg);
+    transition: none;
+    
+    background-size: 270vh;
+    animation: seila infinite 57s;
+}
+@keyframes seila {
+    0%{
+        background-position: 0% 0%;
+
+    }
+    100%{
+        background-position: 100% 0%;
+    }
+}
+header{
+    height: 8vh;
+    background-color: #5e3101;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.burguer{
+    height: 6vh;
+    width: 8vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: -6px;
+    
+}
+.burguer > div{
+    height: 2vh;
+    background-color: wheat;
+    margin-top: 7px;
+}
+header > input{
+    width: 70vh;
+    height: 5vh;
+    border-radius: 12px;
+    text-align: center;
+   background-color: wheat;
+   font-size: 20px;
+   color: rgb(135, 33, 33);
+   cursor: pointer;
+}
+header > input::placeholder{
+    color:  rgba(126, 22, 22, 0.621);
+    font-size: 2vh;
+}
+header > input:hover {
+    background-color: rgb(245, 227, 194);
+}
+header > button{
+    border-radius: 12px;
+    font-size: 4vh;
+    padding: 3px 14px;
+    cursor: pointer;
+    background-color: wheat;
+    color: rgb(127, 30, 30);
+}
+.titulo{
+    
+    width: 50vh;
+    text-align: center;
+    height: auto;
+    margin: 60px auto;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.titulo > h1{
+    font-size: 10vh;
+    color: rgb(135, 33, 33);
+    text-shadow: 10px 10px 60px white;
+}
+.titulo > div{
+    background-color: black;
+    width: 41vh;
+    height: 10px;
+    border-radius: 20px;
+    background-color: #5e3101;
+}
+.container{
+    background-color: aqua;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Guilherme{
+    width: 100vh;
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    background-color: wheat;
+    border-radius: 20px;
+    border: solid 7px #5e3101 ;
+}
+.pf{
+    width: 23vh;
+    border-radius: 20px;
+    margin-left: 3vh;
+}
+.gui_org{
+
+    width: 64vh;
+    margin-left: 3vh;
+}
+.gui_org > h1{
+    font-size: 5vh;
+    color: #5e3101;
+}
+.gui_org > p{
+    font-size: 3.7vh;
+    color: #5e3101;
+
+}
+.gui_org > input{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #5e3101;
+    text-decoration: underline;
+    font-size: 2.6vh;
+    font-weight: 1000;
+    margin-left: 20vh;
+}
+.Gabriel{
+    width: 100vh;
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    background-color: wheat;
+    border-radius: 20px;
+    border: solid 7px #5e3101 ;
+    margin-top: 5vh;
+}
