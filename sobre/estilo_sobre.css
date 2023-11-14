@@ -108,8 +108,9 @@ header > button{
     display: flex;
     background-color: wheat;
     border-radius: 20px;
-    border: solid 7px #5e3101 ;
+    border: solid 7px #5e3101 ;;
 }
+
 .pf{
     width: 23vh;
     border-radius: 20px;
@@ -120,6 +121,7 @@ header > button{
     flex-direction: column;
     width: 64vh;
     margin-left: 3vh;
+    margin-top: 3vh;
 }
 .gui_org > h1{
     font-size: 5vh;
@@ -130,16 +132,87 @@ header > button{
     color: #5e3101;
 
 }
-.gui_org > input{
-    background-color: transparent;
-    border: none;
+.verMais{
+    background-color: wheat;
+    border: 6px solid #5e3101;
+    border-radius: 20px;
     cursor: pointer;
     color: #5e3101;
-    text-decoration: underline;
     font-size: 2.6vh;
     font-weight: 1000;
+    position: absolute;
+
+}
+.ageitaBotão2{
+    margin-top: 40vh;
+    margin-left: -3vh;
+}
+
+.aumentamanho{
+    width: 120vh;
+    height: 210vh;
+}
+.voltaImg{
+    
+    display: flex;
+    visibility: visible;
+}
+.someImg{
+     display: none;
+  
+}
+.ageitaBotão{
+    margin-top: 210vh;
+    font-size: 3.2vh;
+}
+.imgGui{
+
+    width: 80vh;
+    height: 170vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imgGui > div{
+    
+    display: flex;
+    height: 100vh;
+    width: 80vh;
+    
+    align-items: center;
+}
+.imgGui > div > img{
+    height: 40vh;
+    width: 30vh;
+    border-radius: 10px;
+    
     
 }
+.imgGui > div >div{
+    height: 40vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.imgGui > div > div> h1{
+    font-size: 4vh;
+    color: #ca6e0c;
+}
+.imgGui > div > div> p{
+    font-size: 5vh;
+    color: #5e3101;
+}
+
+
+
+
+
+
+
+
 .Gabriel{
     width: 100vh;
     height: 40vh;
