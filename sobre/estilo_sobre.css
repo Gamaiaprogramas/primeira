@@ -31,6 +31,17 @@ header{
     align-items: center;
     justify-content: space-between ;
 }
+header >input{
+    position: absolute;
+    margin-left: 69vh;
+    text-align: center;
+    display: flex;
+}
+header > input::placeholder{
+    text-align: center;
+    justify-content: center;
+    margin-top: -5vh;
+}
 .burguer{
     height: 6vh;
     width: 8vh;
@@ -143,7 +154,7 @@ header > button{
     position: absolute;
 
 }
-.ageitaBotão2{
+.ageitaBotao2{
     margin-top: 40vh;
     margin-left: -3vh;
 }
@@ -161,7 +172,7 @@ header > button{
      display: none;
   
 }
-.ageitaBotão{
+.ageitaBotao{
     margin-top: 210vh;
     font-size: 3.2vh;
 }
@@ -248,4 +259,65 @@ header > button{
     font-size: 2.6vh;
     font-weight: 1000;
 
+}
+.verGab{
+        background-color: wheat;
+        border: 6px solid #5e3101;
+        border-radius: 20px;
+        cursor: pointer;
+        color: #5e3101;
+}
+.imgGab{
+    width: 80vh;
+    height: 170vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imgGab > div{
+    display: flex;
+    height: 100vh;
+    width: 80vh;
+    align-items: center;
+}
+.imgGab > div > img{
+    height: 40vh;
+    width: 30vh;
+    border-radius: 10px;
+}
+.imgGab > div > div{
+    height: 40vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.imgGab > div > div h1{
+    font-size: 4vh;
+    color: #ca6e0c;
+}
+.imgGab > div > div > p{
+    font-size: 5vh;
+    color: #5e3101;
+}
+.butGabNormal{
+    font-size: 2.6vh;
+        font-weight: 1000;
+        margin-left: -93vh;
+        margin-top: -2vh;
+}
+.someGab{
+    display: none;
+}
+.voltaGab{
+    display: flex;
+    visibility: visible;
+}
+.ageitaBotaoGAb{
+    margin-right: 19vh;
+}
+.aumentaGab{
+    width: 120vh;
+    height: 210vh;
 }
