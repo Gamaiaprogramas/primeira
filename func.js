@@ -31,3 +31,9 @@ function curtir(){
         botaoLike.value = "10000";
     }
 }
+/*const ApagaItens = document.querySelector('#apagaPost');
+const ApagaPerfil = document.querySelector('#apagaPerfil');
+const ApagaPhoto = document.querySelector('#photo')
+ApagaItens.style.display="none";
+ApagaPerfil.style.display="none";
+ApagaPhoto.style.display="none";*/
