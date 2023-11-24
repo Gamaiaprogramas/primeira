@@ -1,6 +1,6 @@
 const pergunta = document.querySelector('#dentroDiv');
 
-function cadastro(){
+/*function cadastro(){
    var receba=  window.prompt("ja é cadastrado?");
    if(receba == "sim"){
     pergunta.classList.add('dentro')
@@ -9,7 +9,7 @@ function cadastro(){
    }
 
 }
-console.log(cadastro())
+console.log(cadastro())*/
 const apagar = document.querySelector('#apagaId');
 const asceso = document.querySelector('#ascendeId');
 const botaoLike = document.querySelector('#likeId');
