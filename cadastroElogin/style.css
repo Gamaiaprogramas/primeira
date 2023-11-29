@@ -54,7 +54,34 @@ nav > a> input:hover{
 main{
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+}
+
+#login > *{
+    font-size: 2vh;
+    transition: 1s;
+}
+#login > button{
+    position: absolute;
+    margin-left: 60vh;
+    background-color: wheat;
+    cursor: pointer;
+    border-radius: 1vh;
+    border: solid 0.4vh #5e3101fb;
+    background-color: wheat;
+    color: #5e3101fb;
+    text-align: center;
+    width: 10vh;
+    font-size: 1vh;
+    height: 4vh;
+    transition: 1s;
+}
+#login > button:hover{
+    transform: translateX(0.4vh) translateY(0.4vh);
+    color: wheat;
+    background-color:rgb(245, 147, 0);
+    border: solid 0.4vh wheat;
+    box-shadow: 1vh 1vh 6vh rgb(255, 251, 8);
 }
 #login{
     background-color: rgba(255, 255, 255, 0.603);
@@ -70,7 +97,6 @@ main{
     justify-content: space-around;
     box-shadow: 1vh 1vh 10vh white;
 }
-
 #login > input{
     height: 4vh;
     width: 23vh;
@@ -80,9 +106,228 @@ main{
     color: #5e3101fb;
     text-align: center;
 }
-
+#login > input::placeholder{
+    color: #381e02fb;
+}
 #login > h1{
     color: wheat;
     text-shadow: 0.4vh 0.4vh 0.8vh  black;
     font-size: 6vh;
+}
+#login > label{
+    display: flex;
+}
+#login > label > input[type="checkbox"]{
+    background-color:#5e3101fb; /* Cor de fundo desejada */
+    color: #5e3101fb; /* Cor do texto ou do ícone */
+    width: 2vh; /* Largura desejada do checkbox */
+    height: 2vh; /* Altura desejada do checkbox */
+    border: 0.vh solid #333; /* Cor e espessura da borda do checkbox */
+    border-radius: 4vh; /* Borda arredondada */
+    cursor: pointer;
+
+}
+#login > label > p{
+    margin-left: 0.9vh;
+    color: #5e3101fb;
+}
+#login > input[type="button"]{
+    cursor: pointer;
+    height: 7vh;
+    width: 23vh;
+
+    transition: 1s;
+}
+#login > input[type="button"]:hover{
+    transform: translateX(0.4vh) translateY(0.4vh);
+    color: wheat;
+    background-color:rgb(12, 167, 206);
+    border: solid 0.4vh wheat;
+    box-shadow: 1vh 1vh 6vh cyan;
+}
+
+#Cadastro > *{
+    font-size: 1.5vh;
+}
+#Cadastro{
+    background-color: rgba(255, 255, 255, 0.603);
+    height: 70vh;
+    width: 60vh;
+    margin-top: 10vh;
+    border: solid 0.8vh wheat;
+    border-radius: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    box-shadow: 1vh 1vh 10vh white;
+    transition: 1s;
+}
+#Cadastro > input{
+    height: 4vh;
+    width: 23vh;
+    border-radius: 1vh;
+    border: solid 0.4vh #5e3101fb;
+    background-color: wheat;
+    color: #5e3101fb;
+    text-align: center;
+}
+#Cadastro > input::placeholder{
+    color: #381e02fb;
+}
+#Cadastro > h1{
+    color: wheat;
+    text-shadow: 0.4vh 0.4vh 0.8vh  black;
+    font-size: 6vh;
+    margin-bottom: 2vh;
+}
+#Cadastro> label>p{
+    color: #381e02fb;
+}
+#nascimento{
+    display: flex;
+    align-items: center;
+}
+#nascimento > input{
+    margin-left: 1vh;
+    border-radius: 0.4vh;
+    border: solid 0.2vh #381e02fb;
+    color: #381e02fb;
+    background-color: wheat;
+}
+#Escolaridade{
+    display: flex;
+    flex-direction: column;
+}
+#Escolaridade > div{
+    display: flex;
+    margin-top: 0.3vh;
+}
+#Escolaridade > div  > p{
+    color: #381e02fb;
+}
+#Escolaridade > div > input{
+    background-color:#5e3101fb; /* Cor de fundo desejada */
+    color: #5e3101fb; /* Cor do texto ou do ícone */
+    width: 2vh; /* Largura desejada do checkbox */
+    height: 2vh; /* Altura desejada do checkbox */
+    border: 0.6vh solid #333; /* Cor e espessura da borda do checkbox */
+    border-radius: 4vh; /* Borda arredondada */
+    cursor: pointer;
+    margin-left: 1vh;
+
+}
+#Cadastro > #Termos{
+    display: flex;   
+}
+#Cadastro > #Termos > p{
+    margin-left: 1vh;
+    color: #381e02fb;
+}
+#Cadastro > #Termos > input{
+    background-color:#5e3101fb; /* Cor de fundo desejada */
+    color: #5e3101fb; /* Cor do texto ou do ícone */
+    width: 2vh; /* Largura desejada do checkbox */
+    height: 2vh; /* Altura desejada do checkbox */
+    border: 0.6vh solid #333; /* Cor e espessura da borda do checkbox */
+    border-radius: 4vh; /* Borda arredondada */
+    cursor: pointer;
+}
+#Cadastro > #Termos >p> a{
+    color: purple;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#Cadastro > input[type="button"]{
+    cursor: pointer;
+    height: 7vh;
+    width: 23vh;
+    transition: 1s;
+}
+#Cadastro > input[type="button"]:hover{
+    transform: translateX(0.2vh) translateY(0.2vh);
+    color: wheat;
+    background-color:rgb(1, 199, 1);
+    border: solid 0.4vh wheat;
+    box-shadow: 1vh 1vh 6vh green;
+}
+#Vem_login{
+    position: absolute;
+    margin-left: 60vh;
+    background-color: wheat;
+    cursor: pointer;
+    border-radius: 1vh;
+    border: solid 0.4vh #5e3101fb;
+    background-color: wheat;
+    color: #5e3101fb;
+    text-align: center;
+    width: 10vh;
+    font-size: 1vh;
+    margin-right: 115vh;
+    height: 4vh;
+    transition: 1s;
+}
+#Vem_login:hover{
+    transform: translateX(0.4vh) translateY(0.4vh);
+    color: wheat;
+    background-color:rgb(245, 49, 0);
+    border: solid 0.4vh wheat;
+    box-shadow: 1vh 1vh 6vh rgb(255, 8, 8);
+}
+/*Acaba Cadastro*/
+#Tela_termos{
+    height: 80vh;
+    width: 80vh;
+    background-color: rgba(255, 255, 255, 0.966);
+    filter: blur(100%);
+    position: absolute;
+    margin-top: 10vh;
+    border-radius: 2vh;
+    border: 0.6vh solid wheat;
+    transition: 1s;
+}
+.inicial{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+    width: 77vh;
+}
+.inicial > h1{
+    font-size: 4vh;
+
+}
+.inicial > div > img{
+    height: 5vh;
+    width: 3vw;
+    cursor: pointer;
+}
+.inicial_texto{
+    max-height: 70vh; /* Altura máxima da div */
+    overflow: auto; /* Adiciona uma barra de rolagem quando o conteúdo ultrapassa a altura máxima */
+    border: none; /* Adiciona uma borda para melhor visualização */
+    padding: 10px; 
+}
+.inicial_texto::-webkit-scrollbar {
+    width: 0vh;
+}
+.inicial_texto > p > input{
+    background-color: wheat;
+    border: solid #381e02fb 0.4vh;
+    border-radius: 0.9vh;
+    font-size: 2vh;
+    margin-top: 1vh;
+    cursor: pointer;
+}
+.login_sumir{
+   display: none;
+}
+.login_voltar{
+    display: block;
+}
+.cadastro_sumir{
+    display: none;
+}
+.cadastro_voltar{
+    display: block;
 }

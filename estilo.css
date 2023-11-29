@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gabarito:wght@800&family=Ultra&display=swap');
 
 ::-webkit-scrollbar {
-    width: 20px; 
+    width: 0vh;
     
 }
-  
-
 *{
     padding: 0;
     margin: 0;
@@ -20,6 +18,7 @@ body{
     background-size: 50vh;
     overflow-x: hidden;
     animation: seila infinite 57s;
+    scroll-behavior: smooth;
 }
 @keyframes seila {
     0%{
@@ -34,7 +33,7 @@ header{
     height: 8vh;
     background-color: #5e3101;
     display: flex;
-    width: 202vh;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 
