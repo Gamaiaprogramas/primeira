@@ -17,7 +17,7 @@
 }
 body{
     background-image: url(https://img.freepik.com/premium-vector/white-clouds-blue-sky-seamless-pattern-different-form-fluffy-clouds-light-heaven-background-vector-flat-cartoon-style-abstract-endless-texture-web-covers-decoration-kids-print-design_502274-343.jpg?w=2000);
-    background-size: 500px;
+    background-size: 50vh;
     overflow-x: hidden;
     animation: seila infinite 57s;
 }
@@ -34,8 +34,10 @@ header{
     height: 8vh;
     background-color: #5e3101;
     display: flex;
+    width: 202vh;
     justify-content: space-between;
     align-items: center;
+
 }
 .burguer{
     height: 6vh;
@@ -44,6 +46,7 @@ header{
     flex-direction: column;
     margin-left: 3vh;
     margin-top: -1vh;
+    cursor: pointer;
 }
 .burguer > div{
     height: 2vh;
@@ -83,6 +86,84 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.menu{
+    height: 130vh;
+    width: 100vh;
+    position: absolute;
+    background-color: wheat;
+    margin-left: -102vh;
+    margin-top: -3vh;
+    display: flex;
+    
+    transition: 1s;
+}
+.positionMenu{
+    transform: translateX(0vh);
+}
+.ReturnMenu{
+    transform: translateX(-200vh);
+    
+}
+.Menu_Responsa{
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    margin-top: 2vh;
+    margin-left: 1vh;
+    justify-content: space-between;
+    background-color: rgba(137, 43, 226, 0.548);
+}
+.Menu_Responsa > a{
+    text-decoration: none;
+    color: #5e3101;
+    font-size: 2vh;
+    transition: 0s;
+
+}
+.xis{
+    height: 6vh;
+    width: 8vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(95, 158, 160, 0.562);
+    margin-left: 3vh;
+    margin-top: 1vh;
+    margin-left: 55vh;
+    cursor: pointer;
+}
+.xis > div{
+    height: 2vh;
+    background-color: rgb(226, 19, 19);
+    margin-top: 1vh;
+    animation: xBurguer 2seg ;
+}
+.b1{
+    transform: rotate(45deg) translateY(1.3vh) translateX(1vh);
+    animation: barra1 1s ease-in-out;
+}
+.b2{
+    transform: rotate(-45deg) translateY(-0.3vh) translateX(0vh);
+    animation: barra2 1s ease-in-out;
+}
+.b3{
+    transform: rotate(45deg) translateX(-2vh) translateY(-1.4vh);
+    animation: barra3 1s ease-in-out;
+}
+@keyframes barra1 {
+    to{
+        transform: rotate(0deg) translateY(0vh) translateX(0vh);
+    }
+}
+@keyframes barra2 {
+    to{
+        transform: rotate(0deg) translateY(0vh) translateX(0vh);
+    }
+}
+@keyframes barra3 {
+    to{
+        transform: rotate(0deg) translateY(0vh) translateX(0vh);
+    }
 }
 .primeiro{
     display: flex;

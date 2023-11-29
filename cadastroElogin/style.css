@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gabarito:wght@800&family=Ultra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Ultra', serif;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-vector/white-clouds-blue-sky-seamless-pattern-different-form-fluffy-clouds-light-heaven-background-vector-flat-cartoon-style-abstract-endless-texture-web-covers-decoration-kids-print-design_502274-343.jpg?w=2000);
+    background-size: 50vh;
+    overflow-x: hidden;
+    animation: seila infinite 57s;
+}
+@keyframes seila {
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 100% 0%;
+    }
+}
+
+nav{
+    height: 7vh;
+    background-color: #5e3101fb;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > img{
+    height: 7vh;
+    width: 10vh;
+    margin-left: 1vh;
+}
+nav > a> input{
+    font-size: 2vh;
+    background-color: wheat;
+    border-radius: 3vh;
+    border: solid 0.5vh #381e02fb;
+    padding: 1vh 3vh;
+    cursor: pointer;
+    color: #381e02fb;
+    margin-left: 1vh;
+    transition: 1s;
+}
+nav > a> input:hover{
+    transform: translateX(0.5vh) translateY(0.5vh);
+    box-shadow: 1vh 1vh 10vh red;
+    background-color: rgb(138, 98, 23);
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+#login{
+    background-color: rgba(255, 255, 255, 0.603);
+    height: 60vh;
+    width: 60vh;
+    margin-top: 14vh;
+    border: solid 0.8vh wheat;
+    border-radius: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    box-shadow: 1vh 1vh 10vh white;
+}
+
+#login > input{
+    height: 4vh;
+    width: 23vh;
+    border-radius: 1vh;
+    border: solid 0.4vh #5e3101fb;
+    background-color: wheat;
+    color: #5e3101fb;
+    text-align: center;
+}
+
+#login > h1{
+    color: wheat;
+    text-shadow: 0.4vh 0.4vh 0.8vh  black;
+    font-size: 6vh;
+}
