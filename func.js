@@ -61,3 +61,11 @@ function vaiMenu(){
     ApagaPhoto.style.display="none";
     botaoNuvem.style.display="none";
 }
+
+const ButtonSugeridos = document.querySelector('#ButtonSugerido')
+
+ButtonSugeridos.addEventListener('click' , aviso)
+
+function aviso(){
+    window.alert("É nescessario estar logado para completar essa ação!")
+}

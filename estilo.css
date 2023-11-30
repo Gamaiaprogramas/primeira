@@ -109,9 +109,8 @@ main{
     flex-direction: column;
     height: 120vh;
     margin-top: 2vh;
-    margin-left: 1vh;
+    margin-left: 15vh;
     justify-content: space-between;
-    background-color: rgba(137, 43, 226, 0.548);
 }
 .Menu_Responsa > a{
     text-decoration: none;
@@ -124,16 +123,16 @@ main{
     height: 6vh;
     width: 8vh;
     display: flex;
+    position: absolute;
     flex-direction: column;
-    background-color: rgba(95, 158, 160, 0.562);
     margin-left: 3vh;
-    margin-top: 1vh;
-    margin-left: 55vh;
+    margin-top: 2vh;
+    margin-left: 88vh;
     cursor: pointer;
 }
 .xis > div{
     height: 2vh;
-    background-color: rgb(226, 19, 19);
+    background-color: #5e3101;
     margin-top: 1vh;
     animation: xBurguer 2seg ;
 }
@@ -531,4 +530,42 @@ main{
     transform: translateX(0.2vh) translateY(0.2vh);
     background-color:rgb(0, 187, 255);
     color: white;
+}
+
+@media screen and (max-width: 1310px ){
+    .primeiro{
+        align-items: center;
+    }
+    header > input{
+        width: 50vh;
+        height: 5vh;
+    }
+    .primeiro > h1{
+        font-size: 5vh;
+    }
+    .primeiro > img{
+        height: 14vh;
+        animation: 3.5s entrada normal;
+        transition: 2s;
+    }
+    
+    .container{
+        width: 90vh;
+
+    }
+    .post1{
+        margin-left: 6vh;
+    }
+    .barra{
+        width: 82vh;
+    }
+    .sugerido{
+        display: none;
+    }
+    .t4{
+        display: none;
+    }
+    .t3{
+        display: none;
+    }
 }
