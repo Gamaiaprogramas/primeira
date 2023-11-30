@@ -331,3 +331,14 @@ main{
 .cadastro_voltar{
     display: block;
 }
+
+@media screen and (max-width: 650px ){
+    #ButtonCadastro{
+        margin-top: 60vh;
+        margin-right: 60vh;
+    }
+    #Vem_login{
+        margin-top: 73vh;
+        margin-left: 115vh;
+    }
+}
