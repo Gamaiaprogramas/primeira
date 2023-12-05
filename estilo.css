@@ -19,6 +19,7 @@ body{
     overflow-x: hidden;
     animation: seila infinite 57s;
     scroll-behavior: smooth;
+    
 }
 @keyframes seila {
     0%{
